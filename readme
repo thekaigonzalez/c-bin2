@@ -1,0 +1,23 @@
+a simple binary converter written in c. inspired by a pre-test i took today.
+
+        THANKS FOR the one question I got SHAMED for, apparently knowing binary is a
+        very common developer skill. what better way to learn than implement a simple
+        algorithm to test it myself. 
+
+        note: supports `0b` and normal binary string conversinos 
+
+    [how it works]
+
+        i wont bore you with the entire 'how it works' super-rundown on the
+        history of computers, ill just tell you how i learned about binary
+        numbers.
+        
+        apparently binary numbers are in 'base 2', meaning that every binary
+        number is literally an exponent added by 1... with a base of 2.
+
+        so this is easily recreated using C's pow() function.
+
+        int fn = _z * (pow (2, x));
+
+        this program keeps count of how many numbers are in the binary, and
+        keeps track of every number in a 
